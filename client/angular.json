@@ -70,7 +70,7 @@
           "options": {
             "sslKey": "./ssl/server.key",
             "sslCert": "./ssl/server.crt",
-            "ssl":true
+            "ssl": true
           },
           "configurations": {
             "production": {
@@ -108,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "client"
+  "defaultProject": "client",
+  "cli": {
+    "analytics": "664805ea-df40-41e0-942d-05ee4fd0e8bd"
+  }
 }
